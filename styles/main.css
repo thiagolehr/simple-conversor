@@ -1,0 +1,40 @@
+:root{
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*escolher se quer controlar pela caixa ou
+    margin, enfim*/
+}
+#container{
+    width: 90vw;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+html{
+    height: 100vh;
+}
+#container h1{
+    font-size: 1.6rem;
+    text-align:center;
+}
+
+.result{
+    margin-top: 2rem;
+}
+#calc{
+    display:block;
+    margin:auto;
+}
+
+
+@media (min-width: 700px){
+    :root{
+        font-size: 100%;/*todo 1rem vai ser relativo a 10px*/
+    }
+}
